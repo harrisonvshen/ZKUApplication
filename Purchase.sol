@@ -89,7 +89,7 @@ contract Purchase {
 
     /// Confirm the purchase as buyer.
     /// Transaction has to include `2 * value` ether.
-    /// The ether will be locked until confirmReceived
+    /// The ether will be locked until completePurchase
     /// is called.
     function confirmPurchase()
         external
